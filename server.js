@@ -9,5 +9,9 @@ app.get('/', function (req, res) {
 	// URL request
 	res.send('Hello World');
 });
+app.get('/new', function (req, res) {
+	// URL request
+	res.send('Hello World new ');
+});
 
 app.listen(PORT);
