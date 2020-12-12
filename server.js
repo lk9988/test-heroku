@@ -14,4 +14,5 @@ app.get('/new', function (req, res) {
 	res.send('Hello World new ');
 });
 
+app.listen(3001);
 app.listen(PORT);
